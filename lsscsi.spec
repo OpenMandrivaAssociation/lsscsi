@@ -10,6 +10,7 @@ Group:		System/Kernel and hardware
 Summary: 	List SCSI devices (or hosts) and associated information
 Source0:	http://www.torque.net/scsi/%{name}-%{version}.tgz
 Url:		http://www.torque.net/scsi/lsscsi.html
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Uses information provided by the sysfs pseudo file system in Linux kernel
