@@ -1,6 +1,6 @@
 %define name    lsscsi
 %define version 0.19
-%define release %mkrel 2
+%define release %mkrel 4
 
 Name: 		%{name}
 Version: 	%{version}
