@@ -1,6 +1,6 @@
 %define name    lsscsi
-%define version 0.19
-%define release %mkrel 4
+%define version 0.21
+%define release %mkrel 1
 
 Name: 		%{name}
 Version: 	%{version}
@@ -23,7 +23,7 @@ used prior to the lk 2.6 series.
 
 %build
 
-%configure 
+%configure
 %make
 
 %install
