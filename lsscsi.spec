@@ -1,5 +1,5 @@
 %define name    lsscsi
-%define version 0.21
+%define version 0.22
 %define release %mkrel 1
 
 Name: 		%{name}
@@ -8,9 +8,9 @@ Release: 	%{release}
 License:	GPL
 Group:		System/Kernel and hardware
 Summary: 	List SCSI devices (or hosts) and associated information
-Source0:	http://www.torque.net/scsi/%{name}-%{version}.tgz
-Url:		http://www.torque.net/scsi/lsscsi.html
-BuildRoot:	%{_tmppath}/%{name}-buildroot
+Url:		http://sg.danny.cz/scsi/lsscsi.html
+Source0:	http://sg.danny.cz/scsi/%{name}-%{version}.tgz
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Uses information provided by the sysfs pseudo file system in Linux kernel
