@@ -1,13 +1,9 @@
-%define name    lsscsi
-%define version 0.22
-%define release %mkrel 1
-
-Name: 		%{name}
-Version: 	%{version}
-Release: 	%{release}
-License:	GPL
+Name:		lsscsi
+Version:	0.23
+Release:	%mkrel 1
+License:	GPLv2
 Group:		System/Kernel and hardware
-Summary: 	List SCSI devices (or hosts) and associated information
+Summary:	List SCSI devices (or hosts) and associated information
 Url:		http://sg.danny.cz/scsi/lsscsi.html
 Source0:	http://sg.danny.cz/scsi/%{name}-%{version}.tgz
 BuildRoot:	%{_tmppath}/%{name}-%{version}
@@ -22,22 +18,18 @@ used prior to the lk 2.6 series.
 %setup -q
 
 %build
-
-%configure
+%configure2_5x
 %make
 
 %install
+rm -rf %buildroot
 %makeinstall
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %buildroot
 
 %files
 %defattr(-,root,root)
 %doc ChangeLog INSTALL README CREDITS AUTHORS COPYING
 %attr(0755,root,root) %{_bindir}/*
 %{_mandir}/man8/*
-
-
-
-
