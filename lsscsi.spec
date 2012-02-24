@@ -1,12 +1,11 @@
 Name:		lsscsi
-Version:	0.24
-Release:	%mkrel 1
+Version:	0.26
+Release:	1
 License:	GPLv2
 Group:		System/Kernel and hardware
 Summary:	List SCSI devices (or hosts) and associated information
 Url:		http://sg.danny.cz/scsi/lsscsi.html
 Source0:	http://sg.danny.cz/scsi/%{name}-%{version}.tgz
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Uses information provided by the sysfs pseudo file system in Linux kernel
@@ -22,11 +21,7 @@ used prior to the lk 2.6 series.
 %make
 
 %install
-rm -rf %buildroot
 %makeinstall
-
-%clean
-rm -rf %buildroot
 
 %files
 %defattr(-,root,root)
