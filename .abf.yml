@@ -1,2 +1,4 @@
+removed_sources:
+  lsscsi-0.26.tgz: 0bef44462a6b30d376c922c67463ae152298928f
 sources:
-  "lsscsi-0.26.tgz": 0bef44462a6b30d376c922c67463ae152298928f
+  lsscsi-0.27.tgz: 33063e64133e765761b674f647a4926b3a146d67
