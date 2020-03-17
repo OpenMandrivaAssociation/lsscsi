@@ -1,6 +1,6 @@
 Name:		lsscsi
-Version:	0.27
-Release:	2
+Version:	0.31
+Release:	1
 License:	GPLv2
 Group:		System/Kernel and hardware
 Summary:	List SCSI devices (or hosts) and associated information
