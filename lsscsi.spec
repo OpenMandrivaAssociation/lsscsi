@@ -1,5 +1,5 @@
 Name:		lsscsi
-Version:	0.31
+Version:	0.32
 Release:	1
 License:	GPLv2
 Group:		System/Kernel and hardware
