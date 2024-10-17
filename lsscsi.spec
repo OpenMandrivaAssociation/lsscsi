@@ -4,7 +4,7 @@ Release:	1
 License:	GPLv2
 Group:		System/Kernel and hardware
 Summary:	List SCSI devices (or hosts) and associated information
-Url:		http://sg.danny.cz/scsi/lsscsi.html
+Url:		https://sg.danny.cz/scsi/lsscsi.html
 Source0:	http://sg.danny.cz/scsi/%{name}-%{version}.tgz
 
 %description
